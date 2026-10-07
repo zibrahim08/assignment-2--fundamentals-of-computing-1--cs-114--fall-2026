@@ -4,50 +4,8 @@ public class Program3_TheTwelveDaysOfChristmas {
     String suffix = "st";
     for( day = 1; day <= 12; day++) {
       switch (day) {
-        case 12:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 11:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 10:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 9: suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 8: suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 7: suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 6:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 5:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case 4:
-          suffix = "th";
-          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
-        break;
-
-        case (3):
-          suffix = "rd";
+        case (1):
+          suffix = "st";
           System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
         break;
 
@@ -56,8 +14,21 @@ public class Program3_TheTwelveDaysOfChristmas {
           System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
         break;
 
-        case (1):
-          suffix = "st";
+        case (3):
+          suffix = "rd";
+          System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
+        break;
+
+        case 12:
+        case 11:
+        case 10:
+        case 9:
+        case 8:
+        case 7:
+        case 6:
+        case 5:
+        case 4:
+          suffix = "th";
           System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
         break;
       }
