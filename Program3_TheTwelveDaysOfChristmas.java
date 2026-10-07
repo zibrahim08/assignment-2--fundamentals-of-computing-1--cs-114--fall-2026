@@ -2,7 +2,7 @@ public class Program3_TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
     int day = 1;
     String suffix = "st";
-    for( day = 1; day <= 12; day++) {
+    for(day = 1; day <= 12; day++) {
       switch (day) {
         case (1):
           suffix = "st";
