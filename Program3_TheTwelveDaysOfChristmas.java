@@ -60,7 +60,6 @@ public class Program3_TheTwelveDaysOfChristmas {
           suffix = "st";
           System.out.println("On the" + " " + day + suffix + " " + "day of Christmas my true love gave to me");
         break;
-
       }
     }
   }
